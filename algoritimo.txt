@@ -1,0 +1,16 @@
+Algoritmo "semnome"
+Var
+        contador : inteiro
+        numeroRecebido : inteiro
+Inicio
+escreval ("Hello User!")
+escreval("Digite um número: ")
+leia  (numeroRecebido)
+contador <- 0
+enquanto (numeroRecebido <> -1) faça
+         escreval ("o numero é: ",numeroRecebido)
+         contador <- contador  +   numeroRecebido
+         numeroRecebido <- numeroRecebido -1
+         fimenquanto
+escreval("A soma de todos os números menores ou iguais determinado pelo usuário: ",contador)
+Fimalgoritmo
